@@ -34,9 +34,16 @@ namespace MinhaPrimeiraAPI.Model
             cli3.Nome = "Fulano";
             cli3.CPF = "333333333333";
 
+
+            Cliente cli4 = new Cliente();
+            cli4.Id = 4;
+            cli4.Nome = "Aluno";
+            cli4.CPF = "5555555555555";
+
             listClient.Add(cli1);
             listClient.Add(cli2);
             listClient.Add(cli3);
+            listClient.Add(cli4);
 
             return listClient;
         }
